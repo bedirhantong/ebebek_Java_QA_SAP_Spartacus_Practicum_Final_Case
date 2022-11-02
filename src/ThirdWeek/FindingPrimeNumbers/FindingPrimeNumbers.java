@@ -5,6 +5,8 @@ public class FindingPrimeNumbers {
         findPrimeNumbers(100);
     }
 
+
+    // Finding the number can be prime?
     public static void findPrimeNumbers(int num){
         for (int i = 2; i <= num; i++) {
             if(isPrime(i))
@@ -12,6 +14,8 @@ public class FindingPrimeNumbers {
         }
     }
 
+
+    // Finding is it Prime via finding divider's of number
     public static boolean isPrime(int number){
         int divider=0;
         if (number == 2 ){
