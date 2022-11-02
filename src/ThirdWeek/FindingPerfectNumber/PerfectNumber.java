@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class PerfectNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // Taking Input From User
         System.out.print("Enter a number : ");
         int number = scanner.nextInt();
+
+        // Looking for is it a Perfect Number or Not
         if (isPerfectNumber(number)){
             System.out.println(number+" is a Perfect Number!");
         }else {
