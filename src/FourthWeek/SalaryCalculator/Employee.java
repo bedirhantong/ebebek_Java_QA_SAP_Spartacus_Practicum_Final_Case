@@ -3,10 +3,10 @@ package FourthWeek.SalaryCalculator;
 public class Employee {
 
     // Initializing fields/ attributes
-    private String name;
-    private double salary;
-    private int workHours;
-    private int hireYear;
+    private final String name;
+    private final double salary;
+    private final int workHours;
+    private final int hireYear;
 
 
     // Initializing constructor
